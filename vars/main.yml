@@ -1,5 +1,6 @@
 rubyTmpDir: /usr/local/src
 rubyUrl: http://ftp.ruby-lang.org/pub/ruby/stable/ruby-2.1.2.tar.gz
 rubyCompressedFile: ruby-2.1.2.tar.gz
+rubySHA256: f22a6447811a81f3c808d1c2a5ce3b5f5f0955c68c9a749182feb425589e6635
 rubyName: ruby-2.1.2
-tmpRubyPath: $rubyTmpDir/$rubyName
+tmpRubyPath: "{{ rubyTmpDir }}/{{ rubyName }}"
