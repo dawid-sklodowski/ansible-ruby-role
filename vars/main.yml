@@ -1,9 +1,5 @@
-global_user: root 
-global_use_sudo: False
-global_sudo_user: 
-
 rubyTmpDir: /usr/local/src
-rubyUrl: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
-rubyCompressedFile: ruby-1.9.3-p392.tar.gz
-rubyName: ruby-1.9.3-p392
+rubyUrl: http://ftp.ruby-lang.org/pub/ruby/stable/ruby-2.1.2.tar.gz
+rubyCompressedFile: ruby-2.1.2.tar.gz
+rubyName: ruby-2.1.2
 tmpRubyPath: $rubyTmpDir/$rubyName
