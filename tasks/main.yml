@@ -2,7 +2,17 @@
 - name: Install ruby dependencies
   apt: name={{ item }} state=installed update_cache=yes
   with_items:
+    - autoconf
     - build-essential
+    - bison
+    - libssl-dev
+    - libyaml-dev
+    - libreadline6-dev
+    - zlib1g-dev
+    - libncurses5-dev
+    - libffi-dev
+    - libgdbm3
+    - libgdbm-dev
   sudo: True
 
 # Install correct version of ruby from source
